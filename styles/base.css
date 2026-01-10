@@ -50,8 +50,8 @@ body{
 
 header{
     background: #36454f;
-    
-    padding: 2rem;
+    color: #000000;
+    padding: 1rem;
     grid-column: 1 / 4;
     
     
@@ -71,6 +71,7 @@ main h1 {
 
 h1 {
     font-weight: 100;
+    color: #000000;
 }
 
 main {
