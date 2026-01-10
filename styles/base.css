@@ -77,7 +77,7 @@ main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 1rem;
-    background: purple;
+    background: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 2 / 3;
@@ -86,14 +86,14 @@ main {
 
 
 .left-sidebar {
-    background: lightblue;
+    background: rgb(255, 255, 255);
     grid-column: 1 / 2;
 }
 
 
 
 .right-sidebar{
-    background: yellow;
+    background: rgb(255, 255, 255);
     grid-column: 3 / 4;
 }
 
@@ -111,3 +111,4 @@ footer{
     background: white;
 }
 
+ v bn
