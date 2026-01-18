@@ -13,6 +13,11 @@ header {
     background-color: rgb(43, 61, 61);
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+header * {
+    color: white;
 }
 
 nav {
