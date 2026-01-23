@@ -1,0 +1,31 @@
+@media (min-width: 601px) {
+    .hero-container {
+        position: relative;
+    }
+
+    .mobile-icon {
+        display: none;
+    }
+
+    .desktop-icon {
+        display: inline;
+        font-size: 2rem;
+    }
+
+    .stats-box {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 250px;
+        background-color: rgba(0, 100, 0, 0.8);
+        color: white;
+    }
+
+    .weather-box {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}

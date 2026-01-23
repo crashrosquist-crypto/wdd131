@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #006400;
+    --accent-color: rgba(255, 255, 255, 0.9);
+    --text-color: #ffffff;
+    --font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    display: flex;
+    font-family: var(--font-family);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    min-height: 100px;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 668px;
+    display: block;
+}
+
+.stats-box, .weather-box {
+    background-color: var(--accent-color);
+    padding: 1rem;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.mobile-icon {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.desktop-icon {
+    display: none;
+}
