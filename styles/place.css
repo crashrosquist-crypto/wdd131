@@ -34,7 +34,7 @@ h1 {
     background-color: var(--accent-color);
     padding: 1rem;
     margin: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--text-color);
     border-radius: 5px;
 }
 
@@ -46,4 +46,9 @@ h1 {
 
 .desktop-icon {
     display: none;
+}
+
+#year::after {
+    content: " 🏯";
+    margin-left: 5px;
 }

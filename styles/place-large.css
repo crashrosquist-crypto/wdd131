@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #006400;
+    --accent-color: rgba(255, 255, 255, 0.9);
+    --text-color: #ffffff;
+    --font-family: 'Roboto', sans-serif;
+}
+
 @media (min-width: 601px) {
     .hero-container {
         position: relative;
@@ -17,8 +24,8 @@
         top: 20px;
         left: 20px;
         width: 250px;
-        background-color: rgba(0, 100, 0, 0.8);
-        color: white;
+        background-color: var(--primary-color);
+        color: var(--accent-color);
     }
 
     .weather-box {
@@ -26,6 +33,6 @@
         bottom: 20px;
         right: 20px;
         width: 250px;
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: var(--text-color);
     }
 }
