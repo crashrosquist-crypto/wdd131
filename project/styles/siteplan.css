@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #0a122a;
+    --accent-color: #00D4FF;
+    --secondary-color: #a9a9a9;
+    --text-color: #333;
+    --heading-font: "Orbitron", sans-serif;
+    --body-font: "Roboto", Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: f4f4f4;
+    font-family: var(--body-font);
+    color: var(--text-color);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,h2,h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+}
