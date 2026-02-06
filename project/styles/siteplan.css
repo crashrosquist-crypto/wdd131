@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: f4f4f4;
+    background-color: #f4f4f4;
     font-family: var(--body-font);
     color: var(--text-color);
     line-height: 1.6;
