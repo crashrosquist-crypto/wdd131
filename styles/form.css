@@ -105,3 +105,13 @@ footer {
     font-size: 1rem;
     color: #666;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+    main {
+        padding: 1rem;
+        box-shadow: none; /* Simplifies the look on mobile */
+    }
+}
