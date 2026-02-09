@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Crash Rosquist">
+    <meta name="description" content="The Home Page for MVVR where users can find information on the product. Where to find a booth to experience Music Video Virtual Reality.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Find a Booth | MVRR</title>
+    <link rel="stylesheet" href="styles/mvvr.css">
+    <link rel="stylesheet" href="styles/mvrr-large.css">
+    <script src="scripts/mvrr.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <button class="hamburger" aria-label="Toggle menu">☰</button>
+                <ul class="nav-menu">
+                    <li><a href="mvvr.html">Home</a></li>
+                    <li><a href="booths.html">Find a Booth</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>           
+            </nav>
+            <p class="site-title">Music Video Virtual Reality</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h1>Find a MVRR Booth</h1>
+            <p>Enter your details and we will notify you when a booth arrives in your city.</p>
+
+            <form id="booth-form">
+                <label for="userName">Full Name:</label>
+                <input type="text" id="userName" name="userName" required>
+
+                <label for="userCity">City:</label>
+                <input type="text" id="userCity" name="UserCity" required>
+
+                <label for="userEmail">Email:</label>
+                <input type="email" id="userEmail" name="userEmail" required>
+
+                <button type="submit" id="submit-btn">Notify Me</button>
+            </form>
+
+            <div id="response-message"></div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> | Crash Rosquist | Idaho
+        </p>
+        <p>
+            Last modified: <span id="lastModified"></span>
+        </p>
+    </footer>  
+</body>
+</html>
