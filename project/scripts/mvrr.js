@@ -42,7 +42,7 @@ function updateFooter() {
 
     if (yearSpan && lastModSpan) {
         yearSpan.textContent = new Date().getFullYear();
-        lastModSpan.textContent = `Last Modification: ${document.lastModified}`;
+        lastModSpan.textContent = document.lastModified;
     }
 }
 
